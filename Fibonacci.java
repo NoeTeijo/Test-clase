@@ -48,5 +48,3 @@ class Fibonacci{
 		} while (++i<cantidad);
 		}
 	}
-
-}
