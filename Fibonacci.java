@@ -35,9 +35,10 @@ class Fibonacci{
 		
 	}
 	
-	public void fibonacci3(){
+	public static void fibonacci3(int cantidad){
 		int v0=0;
 		int v1=1;
+		int i=0;
 		System.out.print(v0+ ", ");
 		System.out.print(v1+ ", ");	
 		do{
