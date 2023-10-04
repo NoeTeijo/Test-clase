@@ -44,7 +44,8 @@ class Fibonacci{
 			int vn=v0+v1;
 			v0=v1;
 			v1=vn;
-					System.out.print(vn+ ", ");
+			System.out.print(vn+ ", ");
+		} while (++i<cantidad);
 		}
 	}
 
